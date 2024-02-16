@@ -38,38 +38,43 @@
 }
 /* /--------------------------------------------------- */
 #menuFrontShowCaseBox{
-  margin-top: 2%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: rgb(142, 79, 79);
-  height: 70%;
-  width: 70%;
-  margin-left: 14%;
+  background-color: rgb(255, 255, 255);
+  border: 4px solid red;
+  border-left: red;
+  border-right: red;
+  /* height: 100%; */
+  width: 100%;
+  overflow: hidden;
 }
 
 #menu{
   list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+#companyLogo{
+  float: left;
+  margin-right: 5%;
 }
 
 .linkbox{
   display: inline;
-  margin: 25px;
+  margin: 35px;
 }
 
+/* Word Link Css */
 .navLink{
   font-size: 45px;
   text-decoration: none;
   color: black;
+  transition: ease all 0.3s;
 }
 
-#specialShowCase{
-  margin-top: 16%;
-  background-color: blue;
-  padding-top: 50%;
-  padding: 16%;
-  padding-left:45% ;
-  padding-right:45% ;
-  width: 10%;
-  /* height: 10%; */
+.navLink:hover{
+  color: red;
+}
+
+.navLinkLogo{
+   color: red;
 }

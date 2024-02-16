@@ -1,0 +1,15 @@
+/* Middle Image with the special deals */
+/* #backgroundMainPage{
+  background-image: url(./Components/Images/Avanti\ Aveiro.png);
+} */
+
+#specialShowCase{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    background-image: url(./Images/Sala\ Estar\ ECO\ oak.png);
+    background-size: cover;
+    width: 70%;
+    height: 50%;
+    border: 5px solid white;
+  }
