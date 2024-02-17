@@ -1,8 +1,4 @@
 /* Middle Image with the special deals */
-/* #backgroundMainPage{
-  background-image: url(./Components/Images/Avanti\ Aveiro.png);
-} */
-
 #specialShowCase{
     position: absolute;
     top: 30%;
@@ -12,4 +8,49 @@
     width: 70%;
     height: 50%;
     border: 5px solid white;
-  }
+    outline: 4px solid white;
+    outline-offset: -20px;
+}
+
+#specialPriceTag{
+  position: relative;
+  top: 81%;
+  left: 1%;
+  background-color: rgba(0, 0, 0, 0);
+  background: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.525));
+  width: max-content;
+  padding-top:0px ;
+  padding-bottom: 0px;
+  padding-right: 200px;
+  padding-left: 15px;
+}
+
+#specialPrice{
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+/* Link for the About Page */
+#informationPagePlacement{
+  position: absolute;
+  top: 95%;
+  left: 1%;
+}
+
+.navLinkAboutContacts{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 30px;  
+}
+
+/* Social Icons   */
+.icon{
+  position: absolute;
+  top: 94%;
+  left: 93%;
+  width: 7%;
+}
+

@@ -6,6 +6,7 @@ import Quartos from './Components/Quartos';
 import MDecorativos from './Components/MDecorativos';
 import Salas from './Components/Salas';
 import Home from "./Components/Home";
+import AboutContacts from './Components/AboutContacts';
 import { NavLink } from 'react-router-dom';
 import logoLoja from "./Images/logoLoja.png"
 
@@ -21,6 +22,7 @@ function App() {
           <Route path='/Quartos' element={<Quartos/>}/>
           <Route path='/MDecorativos' element={<MDecorativos/>}/>
           <Route path='/Salas' element={<Salas/>}/>
+          <Route path='/AboutContacts' element={<AboutContacts/>}/>
         </Routes>
       
         <nav id='menu'>
